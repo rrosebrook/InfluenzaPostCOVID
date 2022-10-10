@@ -166,6 +166,8 @@ fivenumA <- total %>%
             Q3 = fivenum(A)[4],
             max = fivenum(A)[5])
 
+fivenumA
+
 fivenumB <- total %>%
   group_by(REGION) %>%
   summarise(n = n(), 
@@ -188,7 +190,7 @@ fivenumAll <- total %>%
 
 minNot2020 <- total %>%
   group_by(REGION) %>%
-  slice_min(order_by = A) %>%
+  slice_min(order_by = ) %>%
   filter(Season != 2020) 
 
 minNot2020
@@ -247,15 +249,18 @@ avgAll <- avgA %>%
 ggplot(data = avgA, aes(x = factor(Season), y = rollavgA, color = REGION)) +
   geom_line(aes(group = REGION)) + geom_point() +
   ggtitle("Rolling Averages, Type-A, Pre-COVID") + 
+  xlab("Flu Season") + ylab("Rolling Average of Infections") +
   theme_light() + theme(legend.position = "none")
 
 ggplot(data = avgB, aes(x = factor(Season), y = rollavgB, color = REGION)) +
   geom_line(aes(group = REGION)) + geom_point() +
   ggtitle("Rolling Averages, Type-B, Pre-COVID") + 
+  xlab("Flu Season") + ylab("Rolling Average of Infections") +
   theme_light() + theme(legend.position = "none")
 
 ggplot(data = avgAll, aes(x = factor(Season), y = rollavgAll, color = REGION)) +
   geom_line(aes(group = REGION)) + geom_point() +
+  xlab("Flu Season") + ylab("Rolling Average of Infections") +
   ggtitle("Rolling Averages, A & B, Pre-COVID") + 
   theme_light() + theme(legend.position = "none")
 
@@ -324,6 +329,9 @@ for (i in bigcovidstates) {
   write(val[12],file="ARIMAAccuracy.txt",append=TRUE)
   png(filename = paste("ARIMA",i,"All.png"), width=800, height=600)
   p = autoplot(multi.fc) +
+    ggtitle(i, " ARIMA") +
+    xlab("Flu Season") + ylab("Infections") +
+    theme_light() +
     geom_line(
       aes(
         x = as.numeric(time(filteredtest.ts)),
@@ -354,6 +362,9 @@ for (i in bigcovidstates) {
   write(val[12],file="NaiveAccuracy.txt",append=TRUE)
   png(filename = paste("Naive",i,"All.png"), width=800, height=600)
   p = autoplot(filteredcol.fc) +
+    ggtitle(i, " Naive") +
+    xlab("Flu Season") + ylab("Infections") +
+    theme_light() +
     geom_line(
       aes(
         x = as.numeric(time(filteredtest.ts)),
