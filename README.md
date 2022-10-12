@@ -2,7 +2,7 @@
 
 This project is aimed at investigating the influence of COVID -- and the precautions taken to address its spread -- upon subsequent influenza season. 
 We looked at both the infection rates as well as mortality rates of influenza for the past 12 years and have attempted to predict future infections 
-by state given COVID's impact.
+by state given COVID's impact.  We also augmented our data with statistics concerning influenza mortality, in attempt to glean any novel information there as well.
 
 ## Data Collection and Cleaning
 ### Collection
