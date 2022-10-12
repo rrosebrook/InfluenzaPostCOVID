@@ -9,7 +9,7 @@ by state given COVID's impact.  We also augmented our data with statistics conce
 
 Data was collected from two sources from the Center for Disease Control (CDC). Viral surveillance data from both clinical and public health labs 
 was downloaded from the National, Regional, and State Level Outpatient Illness and Viral Surveillance for all states and all available years[^1].  
-The mortality data was obtained from the Stat of the States' Infant/Pneumonia Mortality[^2], also from the CDC.
+The mortality data was obtained from the Stat of the States' Influenza/Pneumonia Mortality[^2], also from the CDC.
 
 ### Cleaning
 
