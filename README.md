@@ -51,6 +51,7 @@ infections during this time.
 The purpose of this project was to see if forecasting models made with pre-COVID data would be successful in predicting post-COVID data, with a hunch that they would 
 not be effective.  However, it was surprising to see just how poor these models operated on post-COVID data.  First we looked at what simple rolling averages might 
 predict for infections of each type, with two years worth of predictions:  
+
 <img src=https://user-images.githubusercontent.com/31425480/194941312-e4f90fed-311a-4eac-aa21-7b8069f5cfbd.png width="50%"><img src=https://user-images.githubusercontent.com/31425480/194941648-eece228a-8c5d-42ac-a78c-93ac3fc1bb89.png width="50%">
 <img src=https://user-images.githubusercontent.com/31425480/194941759-e5059310-c7d9-4662-ab74-2b6132d1c6f5.png width="70%">
 
