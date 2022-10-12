@@ -1,0 +1,320 @@
+[1] "Arkansas"
+
+Call:
+lm(formula = DEATHS ~ All, data = filteredfile)
+
+Residuals:
+        1         2         3         4         5         6 
+ 33.73938  20.70396 -55.42722  48.31251   0.05379 -47.38244 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 680.037628  35.304982  19.262 4.28e-05 ***
+All          -0.003635   0.018714  -0.194    0.855    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 48.01 on 4 degrees of freedom
+Multiple R-squared:  0.009345,	Adjusted R-squared:  -0.2383 
+F-statistic: 0.03773 on 1 and 4 DF,  p-value: 0.8554
+
+[1] "Colorado"
+
+Call:
+lm(formula = DEATHS ~ All, data = filteredfile)
+
+Residuals:
+      1       2       3       4       5       6 
+104.829  23.331 -97.276   2.401  28.976 -62.261 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)   
+(Intercept) 721.58807  115.04537   6.272   0.0033 **
+All          -0.03064    0.02462  -1.244   0.2813   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 80.18 on 4 degrees of freedom
+Multiple R-squared:  0.2791,	Adjusted R-squared:  0.0989 
+F-statistic: 1.549 on 1 and 4 DF,  p-value: 0.2813
+
+[1] "Connecticut"
+
+Call:
+lm(formula = DEATHS ~ All, data = filteredfile)
+
+Residuals:
+     1      2      3      4      5      6 
+-13.28  11.72 -78.56  36.86 113.06 -69.80 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)   
+(Intercept) 668.375507  87.182150   7.666  0.00156 **
+All          -0.005366   0.019684  -0.273  0.79866   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 79.84 on 4 degrees of freedom
+Multiple R-squared:  0.01824,	Adjusted R-squared:  -0.2272 
+F-statistic: 0.07431 on 1 and 4 DF,  p-value: 0.7987
+
+[1] "Hawaii"
+
+Call:
+lm(formula = DEATHS ~ All, data = filteredfile)
+
+Residuals:
+     1      2      3      4      5      6 
+ 12.82 -30.01 -55.96 115.63  10.48 -52.97 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)   
+(Intercept) 747.85028  112.94922   6.621   0.0027 **
+All          -0.09856    0.04480  -2.200   0.0927 . 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 71.56 on 4 degrees of freedom
+Multiple R-squared:  0.5475,	Adjusted R-squared:  0.4343 
+F-statistic: 4.839 on 1 and 4 DF,  p-value: 0.09267
+
+[1] "Idaho"
+
+Call:
+lm(formula = DEATHS ~ All, data = filteredfile)
+
+Residuals:
+        1         2         3         4         5         6 
+ -8.34437   9.34815 -16.78426  24.82455  -0.07317  -8.97089 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 193.25588   18.79735  10.281 0.000505 ***
+All           0.02196    0.01236   1.776 0.150297    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 16.85 on 4 degrees of freedom
+Multiple R-squared:  0.441,	Adjusted R-squared:  0.3013 
+F-statistic: 3.156 on 1 and 4 DF,  p-value: 0.1503
+
+[1] "Iowa"
+
+Call:
+lm(formula = DEATHS ~ All, data = filteredfile)
+
+Residuals:
+      1       2       3       4       5       6 
+-16.632  15.577 -90.548  -6.009 103.790  -6.178 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 605.160471  62.005775   9.760 0.000617 ***
+All          -0.004387   0.021637  -0.203 0.849214    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 69.94 on 4 degrees of freedom
+Multiple R-squared:  0.01017,	Adjusted R-squared:  -0.2373 
+F-statistic: 0.04111 on 1 and 4 DF,  p-value: 0.8492
+
+[1] "Kansas"
+
+Call:
+lm(formula = DEATHS ~ All, data = filteredfile)
+
+Residuals:
+      1       2       3       4       5       6 
+ -7.351 100.128 -57.671 -33.514  49.229 -50.820 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)   
+(Intercept) 536.60366   69.40218   7.732  0.00151 **
+All           0.07859    0.09254   0.849  0.44358   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 69.88 on 4 degrees of freedom
+Multiple R-squared:  0.1528,	Adjusted R-squared:  -0.05905 
+F-statistic: 0.7212 on 1 and 4 DF,  p-value: 0.4436
+
+[1] "Louisiana"
+
+Call:
+lm(formula = DEATHS ~ All, data = filteredfile)
+
+Residuals:
+      1       2       3       4       5       6 
+  74.97  -38.73  -10.57   38.25   47.23 -111.15 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 807.87782   71.17050  11.351 0.000343 ***
+All          -0.01138    0.01712  -0.665 0.542537    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 76.29 on 4 degrees of freedom
+Multiple R-squared:  0.0995,	Adjusted R-squared:  -0.1256 
+F-statistic: 0.442 on 1 and 4 DF,  p-value: 0.5425
+
+[1] "Maine"
+
+Call:
+lm(formula = DEATHS ~ All, data = filteredfile)
+
+Residuals:
+      1       2       3       4       5       6 
+-22.522  -7.346 -36.089  31.882  20.653  13.422 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)   
+(Intercept) 410.80091   61.05142   6.729  0.00254 **
+All          -0.09665    0.04762  -2.030  0.11227   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 29.52 on 4 degrees of freedom
+Multiple R-squared:  0.5073,	Adjusted R-squared:  0.3842 
+F-statistic: 4.119 on 1 and 4 DF,  p-value: 0.1123
+
+[1] "Minnesota"
+
+Call:
+lm(formula = DEATHS ~ All, data = filteredfile)
+
+Residuals:
+        1         2         3         4         5         6 
+   0.2326   87.4633 -108.6428   73.8210   50.9592 -103.8333 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)   
+(Intercept) 659.850141  99.478118   6.633  0.00268 **
+All          -0.004448   0.020244  -0.220  0.83686   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 97.83 on 4 degrees of freedom
+Multiple R-squared:  0.01192,	Adjusted R-squared:  -0.2351 
+F-statistic: 0.04827 on 1 and 4 DF,  p-value: 0.8369
+
+[1] "Mississippi"
+
+Call:
+lm(formula = DEATHS ~ All, data = filteredfile)
+
+Residuals:
+       1        2        3        4        5        6 
+-47.8689   0.6976 -13.9534 -17.8920 102.2324 -23.2156 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)   
+(Intercept) 775.04078   91.25163   8.493  0.00105 **
+All           0.04081    0.12699   0.321  0.76404   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 58.73 on 4 degrees of freedom
+Multiple R-squared:  0.02517,	Adjusted R-squared:  -0.2185 
+F-statistic: 0.1033 on 1 and 4 DF,  p-value: 0.764
+
+[1] "Montana"
+
+Call:
+lm(formula = DEATHS ~ All, data = filteredfile)
+
+Residuals:
+      1       2       3       4       5       6 
+  4.597   4.147 -24.553  18.114  -1.069  -1.236 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 188.65346   15.78448  11.952 0.000281 ***
+All          -0.01667    0.01087  -1.534 0.199892    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 15.59 on 4 degrees of freedom
+Multiple R-squared:  0.3703,	Adjusted R-squared:  0.2129 
+F-statistic: 2.352 on 1 and 4 DF,  p-value: 0.1999
+
+[1] "Nebraska"
+
+Call:
+lm(formula = DEATHS ~ All, data = filteredfile)
+
+Residuals:
+     1      2      3      4      5      6 
+-20.52  27.74 -29.64  17.91  21.78 -17.27 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 3.679e+02  2.966e+01  12.406 0.000243 ***
+All         3.756e-03  2.519e-02   0.149 0.888689    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 28.12 on 4 degrees of freedom
+Multiple R-squared:  0.005527,	Adjusted R-squared:  -0.2431 
+F-statistic: 0.02223 on 1 and 4 DF,  p-value: 0.8887
+
+[1] "New Mexico"
+
+Call:
+lm(formula = DEATHS ~ All, data = filteredfile)
+
+Residuals:
+       1        2        3        4        5        6 
+ 12.0283 -29.9807   0.2481   7.4204  12.3414  -2.0575 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 369.208481  15.640018  23.607 1.91e-05 ***
+All          -0.006219   0.004529  -1.373    0.242    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 17.71 on 4 degrees of freedom
+Multiple R-squared:  0.3204,	Adjusted R-squared:  0.1504 
+F-statistic: 1.885 on 1 and 4 DF,  p-value: 0.2417
+
+[1] "Oklahoma"
+
+Call:
+lm(formula = DEATHS ~ All, data = filteredfile)
+
+Residuals:
+       1        2        3        4        5        6 
+  45.706   -3.969 -138.392  -20.293  130.271  -13.323 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)   
+(Intercept) 732.91628  101.24820   7.239  0.00193 **
+All          -0.03879    0.06407  -0.605  0.57760   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 98.51 on 4 degrees of freedom
+Multiple R-squared:  0.08393,	Adjusted R-squared:  -0.1451 
+F-statistic: 0.3665 on 1 and 4 DF,  p-value: 0.5776
+
+[1] "Oregon"
+
+Call:
+lm(formula = DEATHS ~ All, data = filteredfile)
+
+Residuals:
+     1      2      3      4      5      6 
+-20.57 -15.55 -31.99  75.85  34.51 -42.24 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 4.577e+02  3.976e+01  11.513 0.000325 ***
+All         5.998e-03  6.133e-03   0.978 0.383489    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 51.03 on 4 degrees of freedom
+Multiple R-squared:  0.1929,	Adjusted R-squared:  -0.008815 
+F-statistic: 0.9563 on 1 and 4 DF,  p-value: 0.3835
+

@@ -1,0 +1,488 @@
+[1] "Arkansas"
+
+Call:
+lm(formula = DEATHS ~ A, data = filteredfile)
+
+Residuals:
+      1       2       3       4       5       6 
+ 31.200  20.272 -54.992  47.288   5.793 -49.561 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 680.180265  28.944728  23.499 1.94e-05 ***
+A            -0.006028   0.022043  -0.273    0.798    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 47.79 on 4 degrees of freedom
+Multiple R-squared:  0.01835,	Adjusted R-squared:  -0.2271 
+F-statistic: 0.07478 on 1 and 4 DF,  p-value: 0.798
+
+[1] "Colorado"
+
+Call:
+lm(formula = DEATHS ~ A, data = filteredfile)
+
+Residuals:
+       1        2        3        4        5        6 
+  78.473   55.962  -80.429    1.334   47.737 -103.078 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)   
+(Intercept) 661.60843   85.42729   7.745   0.0015 **
+A            -0.02534    0.02562  -0.989   0.3786   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 84.65 on 4 degrees of freedom
+Multiple R-squared:  0.1965,	Adjusted R-squared:  -0.004345 
+F-statistic: 0.9784 on 1 and 4 DF,  p-value: 0.3786
+
+[1] "Connecticut"
+
+Call:
+lm(formula = DEATHS ~ A, data = filteredfile)
+
+Residuals:
+      1       2       3       4       5       6 
+ 43.721  42.265 -70.443   6.299  66.354 -88.196 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)   
+(Intercept) 578.68935   74.58383   7.759  0.00149 **
+A             0.02537    0.02569   0.987  0.37932   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 72.25 on 4 degrees of freedom
+Multiple R-squared:  0.196,	Adjusted R-squared:  -0.005011 
+F-statistic: 0.9751 on 1 and 4 DF,  p-value: 0.3793
+
+[1] "Hawaii"
+
+Call:
+lm(formula = DEATHS ~ A, data = filteredfile)
+
+Residuals:
+     1      2      3      4      5      6 
+-52.94 -30.41 -51.30 105.06  47.40 -17.81 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)   
+(Intercept) 768.14197  119.15024   6.447  0.00298 **
+A            -0.15239    0.06768  -2.252  0.08748 . 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 70.64 on 4 degrees of freedom
+Multiple R-squared:  0.559,	Adjusted R-squared:  0.4487 
+F-statistic:  5.07 on 1 and 4 DF,  p-value: 0.08748
+
+[1] "Idaho"
+
+Call:
+lm(formula = DEATHS ~ A, data = filteredfile)
+
+Residuals:
+        1         2         3         4         5         6 
+-17.77701   1.62397 -21.65301  30.88173  -0.09259   7.01691 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 212.22225   18.63188  11.390 0.000339 ***
+A             0.01229    0.01675   0.734 0.503867    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 21.16 on 4 degrees of freedom
+Multiple R-squared:  0.1186,	Adjusted R-squared:  -0.1018 
+F-statistic: 0.5382 on 1 and 4 DF,  p-value: 0.5039
+
+[1] "Iowa"
+
+Call:
+lm(formula = DEATHS ~ A, data = filteredfile)
+
+Residuals:
+      1       2       3       4       5       6 
+ -1.921  37.238 -91.245 -30.089  92.224  -6.206 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 575.35803   59.74791   9.630  0.00065 ***
+A             0.01101    0.03108   0.354  0.74113    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 69.22 on 4 degrees of freedom
+Multiple R-squared:  0.0304,	Adjusted R-squared:  -0.212 
+F-statistic: 0.1254 on 1 and 4 DF,  p-value: 0.7411
+
+[1] "Kansas"
+
+Call:
+lm(formula = DEATHS ~ A, data = filteredfile)
+
+Residuals:
+     1      2      3      4      5      6 
+ 25.75  95.30 -62.26 -43.40  50.72 -66.11 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)   
+(Intercept) 618.75770   91.38257   6.771  0.00248 **
+A            -0.08156    0.24710  -0.330  0.75790   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 74.91 on 4 degrees of freedom
+Multiple R-squared:  0.02652,	Adjusted R-squared:  -0.2169 
+F-statistic: 0.109 on 1 and 4 DF,  p-value: 0.7579
+
+[1] "Louisiana"
+
+Call:
+lm(formula = DEATHS ~ A, data = filteredfile)
+
+Residuals:
+      1       2       3       4       5       6 
+  81.01  -22.60  -29.70   28.78   57.54 -115.03 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 781.609862  65.197444  11.988 0.000277 ***
+A            -0.006317   0.021939  -0.288 0.787698    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 79.57 on 4 degrees of freedom
+Multiple R-squared:  0.02031,	Adjusted R-squared:  -0.2246 
+F-statistic: 0.08291 on 1 and 4 DF,  p-value: 0.7877
+
+[1] "Maine"
+
+Call:
+lm(formula = DEATHS ~ A, data = filteredfile)
+
+Residuals:
+     1      2      3      4      5      6 
+-32.64  41.93 -57.90  13.68  24.25  10.68 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)   
+(Intercept) 294.179911  60.277938   4.880  0.00816 **
+A            -0.005913   0.070498  -0.084  0.93719   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 42.03 on 4 degrees of freedom
+Multiple R-squared:  0.001756,	Adjusted R-squared:  -0.2478 
+F-statistic: 0.007035 on 1 and 4 DF,  p-value: 0.9372
+
+[1] "Minnesota"
+
+Call:
+lm(formula = DEATHS ~ A, data = filteredfile)
+
+Residuals:
+       1        2        3        4        5        6 
+   2.147  109.878 -108.974   30.254   62.069  -95.374 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)   
+(Intercept) 6.143e+02  9.078e+01   6.767  0.00249 **
+A           7.825e-03  2.501e-02   0.313  0.76998   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 97.23 on 4 degrees of freedom
+Multiple R-squared:  0.02389,	Adjusted R-squared:  -0.2201 
+F-statistic: 0.09792 on 1 and 4 DF,  p-value: 0.77
+
+[1] "Mississippi"
+
+Call:
+lm(formula = DEATHS ~ A, data = filteredfile)
+
+Residuals:
+     1      2      3      4      5      6 
+ 16.45  25.37 -28.78 -25.65  32.62 -20.01 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 703.62424   33.08781  21.265 2.89e-05 ***
+A             0.22713    0.06961   3.263    0.031 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 31.09 on 4 degrees of freedom
+Multiple R-squared:  0.7269,	Adjusted R-squared:  0.6586 
+F-statistic: 10.65 on 1 and 4 DF,  p-value: 0.03099
+
+[1] "Montana"
+
+Call:
+lm(formula = DEATHS ~ A, data = filteredfile)
+
+Residuals:
+       1        2        3        4        5        6 
+ -0.2077   6.4112 -20.5432  17.5311   5.1296  -8.3210 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 183.07108   11.12881  16.450    8e-05 ***
+A            -0.01857    0.01050  -1.769    0.152    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 14.71 on 4 degrees of freedom
+Multiple R-squared:  0.4389,	Adjusted R-squared:  0.2986 
+F-statistic: 3.129 on 1 and 4 DF,  p-value: 0.1516
+
+[1] "Nebraska"
+
+Call:
+lm(formula = DEATHS ~ A, data = filteredfile)
+
+Residuals:
+      1       2       3       4       5       6 
+ -9.846  35.805 -29.284   7.494  10.506 -14.674 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 353.27910   22.75103  15.528   0.0001 ***
+A             0.02683    0.02897   0.926   0.4067    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 25.59 on 4 degrees of freedom
+Multiple R-squared:  0.1766,	Adjusted R-squared:  -0.02925 
+F-statistic: 0.8579 on 1 and 4 DF,  p-value: 0.4067
+
+[1] "New Mexico"
+
+Call:
+lm(formula = DEATHS ~ A, data = filteredfile)
+
+Residuals:
+      1       2       3       4       5       6 
+ 15.303 -30.708   4.151  -2.286  19.272  -5.731 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 366.045758  21.975735  16.657 7.61e-05 ***
+A            -0.007764   0.009973  -0.778     0.48    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 20.02 on 4 degrees of freedom
+Multiple R-squared:  0.1316,	Adjusted R-squared:  -0.08555 
+F-statistic: 0.606 on 1 and 4 DF,  p-value: 0.4798
+
+[1] "Oklahoma"
+
+Call:
+lm(formula = DEATHS ~ A, data = filteredfile)
+
+Residuals:
+      1       2       3       4       5       6 
+  39.85   27.16 -131.93  -39.70  139.43  -34.81 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)   
+(Intercept) 692.33298   89.22990   7.759  0.00149 **
+A            -0.01682    0.08464  -0.199  0.85216   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 102.4 on 4 degrees of freedom
+Multiple R-squared:  0.009778,	Adjusted R-squared:  -0.2378 
+F-statistic: 0.0395 on 1 and 4 DF,  p-value: 0.8522
+
+[1] "Oregon"
+
+Call:
+lm(formula = DEATHS ~ A, data = filteredfile)
+
+Residuals:
+      1       2       3       4       5       6 
+-14.779   1.030 -45.958  78.609  -1.505 -17.399 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 439.94219   41.98431  10.479 0.000469 ***
+A             0.01474    0.01082   1.362 0.244743    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 46.95 on 4 degrees of freedom
+Multiple R-squared:  0.317,	Adjusted R-squared:  0.1462 
+F-statistic: 1.856 on 1 and 4 DF,  p-value: 0.2447
+
+           REGION Season DEATHS     A     B   All
+6         Alabama   2014  1,031   211   962  1173
+7         Alabama   2015  1,097   466    79   545
+8         Alabama   2016    987  1862  1111  2973
+9         Alabama   2017  1,176  4073  1412  5485
+10        Alabama   2018   1268  2325   369  2694
+11        Alabama   2019   1018  1760  1186  2946
+26        Arizona   2014    779  2068   326  2394
+27        Arizona   2015    775  1627   526  2153
+28        Arizona   2016    885  1993  1114  3107
+29        Arizona   2017    876  3164  1277  4441
+30        Arizona   2018   1116  2775   119  2894
+31        Arizona   2019    955  1443  1286  2729
+38       Arkansas   2014    710   229   810  1039
+39       Arkansas   2015    700    75   129   204
+40       Arkansas   2016    623   363    80   443
+41       Arkansas   2017    720  1239  1058  2297
+42       Arkansas   2018    670  2650   126  2776
+43       Arkansas   2019    623  1264  1392  2656
+50     California   2014  5,970  5853  3852  9705
+51     California   2015  6,188  5154  3924  9078
+52     California   2016  5,981  7926   794  8720
+53     California   2017  6,340 11934  5621 17555
+54     California   2018   6917  7811   266  8077
+55     California   2019   5664 16015 10631 26646
+62       Colorado   2014    701  1542  2551  4093
+63       Colorado   2015    659  2311   493  2804
+64       Colorado   2016    533  1901  1079  2980
+65       Colorado   2017    577  3391  1406  4797
+66       Colorado   2018    568  5577   381  5958
+67       Colorado   2019    468  3572  2672  6244
+74    Connecticut   2014    644   851  1217  2068
+75    Connecticut   2015    667  1815   625  2440
+76    Connecticut   2016    572  2513   808  3321
+77    Connecticut   2017    675  3548  2086  5634
+78    Connecticut   2018    757  4413   141  4554
+79    Connecticut   2019    563  2858  3772  6630
+102       Georgia   2014  1,510   480  4251  4731
+103       Georgia   2015  1,467  1748   764  2512
+104       Georgia   2016  1,423  4149  2374  6523
+105       Georgia   2017  1,400  7862  2803 10665
+106       Georgia   2018   1530  5676   598  6274
+107       Georgia   2019   1299  6246  3927 10173
+114        Hawaii   2014    438  1819  1455  3274
+115        Hawaii   2015    557  1186   446  1632
+116        Hawaii   2016    507  1377   499  1876
+117        Hawaii   2017    637  1550   748  2298
+118        Hawaii   2018    542  1795   400  2195
+119        Hawaii   2019    366  2522   815  3337
+126         Idaho   2014    200   452   235   687
+127         Idaho   2015    218   338   363   701
+128         Idaho   2016    207  1337    53  1390
+129         Idaho   2017    255   968   713  1681
+130         Idaho   2018    235  1861    43  1904
+131         Idaho   2019    231   957  1170  2127
+138      Illinois   2014  2,485   757  2655  3412
+139      Illinois   2015  2,343  1470   382  1852
+140      Illinois   2016  2,178  2069  1697  3766
+141      Illinois   2017  2,402  3898  1569  5467
+142      Illinois   2018   2564  2328   141  2469
+143      Illinois   2019   2108  2230  1869  4099
+150       Indiana   2014  1,063   669   893  1562
+151       Indiana   2015  1,044   682   123   805
+152       Indiana   2016    962  1576   648  2224
+153       Indiana   2017  1,078  2316  1128  3444
+154       Indiana   2018   1118  2051    40  2091
+155       Indiana   2019    933  1117   994  2111
+162          Iowa   2014    582   778   710  1488
+163          Iowa   2015    618   491   133   624
+164          Iowa   2016    504  1807   612  2419
+165          Iowa   2017    578  2974  1847  4821
+166          Iowa   2018    697  2673    51  2724
+167          Iowa   2019    585  1440  1747  3187
+174        Kansas   2014    637    92  1279  1371
+175        Kansas   2015    682   393   183   576
+176        Kansas   2016    522   423   125   548
+177        Kansas   2017    546   360   186   546
+178        Kansas   2018    630   484    78   562
+179        Kansas   2019    525   339   160   499
+186      Kentucky   2014  1,017   403   546   949
+187      Kentucky   2015    967   465   310   775
+188      Kentucky   2016    888   908   294  1202
+189      Kentucky   2017    932  1559   953  2512
+190      Kentucky   2018    969  2601    63  2664
+191      Kentucky   2019    850  1996  1334  3330
+198     Louisiana   2014    854  1365  1170  2535
+199     Louisiana   2015    753   952   467  1419
+200     Louisiana   2016    720  5051  1742  6793
+201     Louisiana   2017    785  4019  1352  5371
+202     Louisiana   2018    824  2398   335  2733
+203     Louisiana   2019    656  1675  1904  3579
+210         Maine   2014    258   599   749  1348
+211         Maine   2015    333   526   203   729
+212         Maine   2016    231   893   594  1487
+213         Maine   2017    301  1160   306  1466
+214         Maine   2018    312  1087   149  1236
+215         Maine   2019    301   653   622  1275
+222      Maryland   2014  1,019  2361   667  3028
+223      Maryland   2015  1,176  1239   452  1691
+224      Maryland   2016  1,025  3125  1168  4293
+225      Maryland   2017    990  4247  1524  5771
+226      Maryland   2018    973  5310   246  5556
+227      Maryland   2019    827  3369  2498  5867
+234 Massachusetts   2014  1,370   391  1485  1876
+235 Massachusetts   2015  1,512  1689   806  2495
+236 Massachusetts   2016  1,251  3488  1280  4768
+237 Massachusetts   2017  1,433  4691  2181  6872
+238 Massachusetts   2018   1441  5577   693  6270
+239 Massachusetts   2019   1217  4120  4054  8174
+246      Michigan   2014  1,875  1312  2938  4250
+247      Michigan   2015  1,894  2745   738  3483
+248      Michigan   2016  1,672  4377  2829  7206
+249      Michigan   2017  1,798 10254  3389 13643
+250      Michigan   2018   1869  8497  1047  9544
+251      Michigan   2019   1662  9229  7800 17029
+258     Minnesota   2014    638  2756  2209  4965
+259     Minnesota   2015    738  1768   326  2094
+260     Minnesota   2016    529  3027  1966  4993
+261     Minnesota   2017    697  6704  1541  8245
+262     Minnesota   2018    698  2766   114  2880
+263     Minnesota   2019    539  2567  1259  3826
+270   Mississippi   2014    763   189   689   878
+271   Mississippi   2015    791   273   101   374
+272   Mississippi   2016    785   485   101   586
+273   Mississippi   2017    782   458   151   609
+274   Mississippi   2018    910   765    37   802
+275   Mississippi   2019    789   464   447   911
+282      Missouri   2014  1,321   677   985  1662
+283      Missouri   2015  1,337   399   167   566
+284      Missouri   2016  1,150  1767   872  2639
+285      Missouri   2017  1,281  2780  1624  4404
+286      Missouri   2018   1477  7112   116  7228
+287      Missouri   2019   1038  6253  6700 12953
+294       Montana   2014    179   208   647   855
+295       Montana   2015    183   349   239   588
+296       Montana   2016    147   836   190  1026
+297       Montana   2017    185   840   466  1306
+298       Montana   2018    152  1949   186  2135
+299       Montana   2019    153  1171   894  2065
+306      Nebraska   2014    351   282   676   958
+307      Nebraska   2015    397   295    60   355
+308      Nebraska   2016    342   671   318   989
+309      Nebraska   2017    393  1201   708  1909
+310      Nebraska   2018    394  1126    19  1145
+311      Nebraska   2019    355   611   547  1158
+342    New Mexico   2014    376   689   153   842
+343    New Mexico   2015    322  1718  1052  2770
+344    New Mexico   2016    353  2215   431  2646
+345    New Mexico   2017    338  3318  2893  6211
+346    New Mexico   2018    365  2617    44  2661
+347    New Mexico   2019    347  1715  1525  3240
+354      New York   2014  4,702  3552  5982  9534
+355      New York   2015  4,881  6530  2338  8868
+356      New York   2016  4,513 10644  2713 13357
+357      New York   2017  4,517 12847  7959 20806
+358      New York   2018   4749 16082   364 16446
+359      New York   2019   4286  7607  5342 12949
+382          Ohio   2014  2,443  1377  2936  4313
+383          Ohio   2015  2,445  2444   935  3379
+384          Ohio   2016  2,187  7630  4886 12516
+385          Ohio   2017  2,243 16150  6290 22440
+386          Ohio   2018   2395 17230   491 17721
+387          Ohio   2019   1930 13356 12414 25770
+394      Oklahoma   2014    723   546   888  1434
+395      Oklahoma   2015    717   148   160   308
+396      Oklahoma   2016    546   856   395  1251
+397      Oklahoma   2017    625  1643   616  2259
+ [ reached 'max' / getOption("max.print") -- omitted 68 rows ]

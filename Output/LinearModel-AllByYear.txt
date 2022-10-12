@@ -1,0 +1,120 @@
+[1] 2014
+
+Call:
+lm(formula = DEATHS ~ All, data = filteredfileTest)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-1324.4  -490.0  -258.1   103.8  5069.9 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 501.11553  251.10372   1.996   0.0534 .  
+All           0.16665    0.03775   4.414 8.47e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1092 on 37 degrees of freedom
+Multiple R-squared:  0.3449,	Adjusted R-squared:  0.3272 
+F-statistic: 19.48 on 1 and 37 DF,  p-value: 8.475e-05
+
+[1] 2015
+
+Call:
+lm(formula = DEATHS ~ All, data = filteredfileTest)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-1324.4  -490.0  -258.1   103.8  5069.9 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 501.11553  251.10372   1.996   0.0534 .  
+All           0.16665    0.03775   4.414 8.47e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1092 on 37 degrees of freedom
+Multiple R-squared:  0.3449,	Adjusted R-squared:  0.3272 
+F-statistic: 19.48 on 1 and 37 DF,  p-value: 8.475e-05
+
+[1] 2016
+
+Call:
+lm(formula = DEATHS ~ All, data = filteredfileTest)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-1324.4  -490.0  -258.1   103.8  5069.9 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 501.11553  251.10372   1.996   0.0534 .  
+All           0.16665    0.03775   4.414 8.47e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1092 on 37 degrees of freedom
+Multiple R-squared:  0.3449,	Adjusted R-squared:  0.3272 
+F-statistic: 19.48 on 1 and 37 DF,  p-value: 8.475e-05
+
+[1] 2017
+
+Call:
+lm(formula = DEATHS ~ All, data = filteredfileTest)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-1324.4  -490.0  -258.1   103.8  5069.9 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 501.11553  251.10372   1.996   0.0534 .  
+All           0.16665    0.03775   4.414 8.47e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1092 on 37 degrees of freedom
+Multiple R-squared:  0.3449,	Adjusted R-squared:  0.3272 
+F-statistic: 19.48 on 1 and 37 DF,  p-value: 8.475e-05
+
+[1] 2018
+
+Call:
+lm(formula = DEATHS ~ All, data = filteredfileTest)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-1324.4  -490.0  -258.1   103.8  5069.9 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 501.11553  251.10372   1.996   0.0534 .  
+All           0.16665    0.03775   4.414 8.47e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1092 on 37 degrees of freedom
+Multiple R-squared:  0.3449,	Adjusted R-squared:  0.3272 
+F-statistic: 19.48 on 1 and 37 DF,  p-value: 8.475e-05
+
+[1] 2019
+
+Call:
+lm(formula = DEATHS ~ All, data = filteredfileTest)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-1324.4  -490.0  -258.1   103.8  5069.9 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 501.11553  251.10372   1.996   0.0534 .  
+All           0.16665    0.03775   4.414 8.47e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1092 on 37 degrees of freedom
+Multiple R-squared:  0.3449,	Adjusted R-squared:  0.3272 
+F-statistic: 19.48 on 1 and 37 DF,  p-value: 8.475e-05
+
