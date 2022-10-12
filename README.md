@@ -50,7 +50,7 @@ infections during this time.
 
 The purpose of this project was to see if forecasting models made with pre-COVID data would be successful in predicting post-COVID data, with a hunch that they would 
 not be effective.  However, it was surprising to see just how poor these models operated on post-COVID data.  First we looked at what simple rolling averages might 
-predict for infections of each type, with two years worth of predictions:
+predict for infections of each type, with two years worth of predictions:  
 <img src=https://user-images.githubusercontent.com/31425480/194941312-e4f90fed-311a-4eac-aa21-7b8069f5cfbd.png width="50%"><img src=https://user-images.githubusercontent.com/31425480/194941648-eece228a-8c5d-42ac-a78c-93ac3fc1bb89.png width="50%">
 <img src=https://user-images.githubusercontent.com/31425480/194941759-e5059310-c7d9-4662-ab74-2b6132d1c6f5.png width="70%">
 
@@ -59,15 +59,25 @@ could get for prediction so we attempted with both Naive linear regression and A
 fared no better -- when we looked at the accuracy of these, no MASE value for any region scored lower than 3 (Wisconsin) for Naive predictions, and only a single 
 value approached 1 using ARIMA (Tennessee), but it approached 1 from the wrong direction at a value of 1.08. As much as ARIMA almost performed well, it also scored over 11 with Missouri -- Naive's MASE score of 5.03 almost looks respectable in comparison.
 
-Looking at that excepentionally poorly forecasted state of Missouri -- forecasts are in blue and the actual data has been plotted in red:  
+Looking at that excepentionally poorly forecasted state of Missouri -- forecasts are in blue and the actual data has been plotted in red:   
 <img src=https://user-images.githubusercontent.com/31425480/194945048-9d8dc338-8d62-4174-967c-710ef577b66f.png width="50%"><img src=https://user-images.githubusercontent.com/31425480/194944810-85e5b8e0-0368-47eb-acb5-d1d38f6ae931.png width="50%">
 
-But even with our standout state of Tennessee, we can see the predictions really didn't do well.   It's important to note that the scales of Naive vs. ARIMA are drastically different, which is why Naive almost looks like a better prediction at first glance:
+But even with our standout state of Tennessee, we can see the predictions really didn't do well.   It's important to note that the scales of Naive vs. ARIMA are drastically different, which is why Naive almost looks like a better prediction at first glance:  
 <img src=https://user-images.githubusercontent.com/31425480/194945488-6b7f8254-ab43-4b36-8961-61b4d4709f66.png width="50%"><img src=https://user-images.githubusercontent.com/31425480/194945719-d8ffc91e-a55d-4e66-9440-0b22ca149f4c.png width="50%">
 
 In the future, it may be easier to do influenza forecasting using only post-COVID data, but as we are only barely entering our third flu season since COVID became a thing, we simply do not have enough post-COVID data to use for forecasting, but it's clear that influenza spread hasn't yet returned back to the spread we would have seen before COVID.
 
-The code attached created Nieve and ARIMA forecasting images for each of the forty states we had complete data available, as well as two text files of the MASE errors for each state.
+The code attached creates Nieve and ARIMA forecasting images for each of the forty states we had complete data available, as well as two text files of the MASE errors for each state.
+
+## Mortality by Influenza Type
+
+While unable to locate public influenza mortality data of post-COVID years, we were able to locate data from the CDC with mortality data overlapping much of our pre-COVID data.  We then used this to explore whether type-A or type-B would be more associated with mortality using linear models, grouping our data both by year and by state.  Most of the results were unsurprising as we would expect influenza to be related to deaths from influenza, but one interesting finding was for type-B influenza when we looked at it by year.  We no longer saw the overwhelming levels of indication of association that we saw in other analysis, but instead the association seems implied but is much more uncertain for all years -- if we required a greater level of confidence, we would be inclined to fail to reject our null hypotheses there.
+
+The code attached also creates text files summarizing linear models both by state and year, for type-A, type-B, and all types of influenza infection as it relates to mortality.  Because these are sink dumps, they do not run well as part of the code as a whole but they each run well once the previous code has been run.
+
+## Conclusions
+
+Sometimes it feels like it's been decades since the start of COVID, however through the process of this project it's been painfully clear that there's barely two seasons of flu data at the time of this publicaion, and we are barely starting upon our third.  Because of this lack of data we were ultimately hampered on the level of analysis we could do on this topic, and it would be worth revisiting once more data has been collected. 
 
 
 
