@@ -496,3 +496,16 @@ for (i in mortalitystates) {
 sink()
 
 
+sink("LinearModel-AByYear.txt")
+
+
+for (i in 2014:2019) {
+  filteredfileTest <- totalMortality %>%
+    filter(Season == 2018)
+  model <- lm(DEATHS ~ A, data = filteredfileTest)
+  info = summary(model)
+  print(i)
+  print(info)
+}
+
+sink()
