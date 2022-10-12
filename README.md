@@ -67,7 +67,7 @@ But even with our standout state of Tennessee, we can see the predictions really
 
 In the future, it may be easier to do influenza forecasting using only post-COVID data, but as we are only barely entering our third flu season since COVID became a thing, we simply do not have enough post-COVID data to use for forecasting, but it's clear that influenza spread hasn't yet returned back to the spread we would have seen before COVID.
 
-The code attached creates Nieve and ARIMA forecasting images for each of the forty states we had complete data available, as well as two text files of the MASE errors for each state.
+The code attached creates Naive and ARIMA forecasting images for each of the states we had complete data available, as well as two text files of the MASE errors for each type, listed by state.
 
 ## Mortality by Influenza Type
 
