@@ -38,9 +38,7 @@ compared to what we saw in 2020.
 
 However, there did ultimately end up being a few states who reported the fewest infections in years other than 2020.  Of the forty states which we had complete data 
 for, (which notably excludes Florida, a state that typically has not made public their influenza numbers), four states had the fewest type-A -- or total influenza 
-infections -- in years outside of 2020: Alaska (2019), Nevada (2015), New Hampshire (2011), and Wyoming (2011). Alaska has a notoriously late flu season, with infections 
-generally not beginning until after the start of the year (Morales, 2016)[^3] and as such, it would make sense that 2020's infection prevention actions would have 
-been more likely to affect the 2019-2020 flu season for that region, than the 2020-2021 as it did in other place.  
+infections -- in years outside of 2020: Alaska (2019), Nevada (2015), New Hampshire (2011), and Wyoming (2011). Alaska has a notoriously late flu season, with infections generally not beginning until after the start of the year (Morales, 2016)[^3] and as such, it would make sense that 2020's infection prevention actions would have been more likely to affect the 2019-2020 flu season for that region, than the 2020-2021 as it did in other place.  
 
 For type-B infections however, it was surprising to see that the majority of states (27) had the fewest infections in 2021.  When we look at the historical data for 
 type-B infections, we can see that they're quite variable year to year and I suspect it may have been that 2020 was prone to have been a more infectious year, and 2021 
@@ -59,18 +57,17 @@ predict for infections of each type, with two years worth of predictions:
 If we compare that to our previous graphs, we can see these moving average predictions were far from reality.  However, these moving averages are about as simple as we 
 could get for prediction so we attempted with both Naive linear regression and AutoRegressive Integrated Moving Average (ARIMA) forecasting.  With these, our forecasts 
 fared no better -- when we looked at the accuracy of these, no MASE value for any region scored lower than 3 (Wisconsin) for Naive predictions, and only a single 
-value approached 1 using ARIMA (Tennessee), but it approached 1 from the wrong direction at a value of 1.08. As much as ARIMA almost performed well, it also scored over 11 
-with Missouri -- Naive's MASE score of 5.03 almost looks respectable in comparison.
+value approached 1 using ARIMA (Tennessee), but it approached 1 from the wrong direction at a value of 1.08. As much as ARIMA almost performed well, it also scored over 11 with Missouri -- Naive's MASE score of 5.03 almost looks respectable in comparison.
 
-Looking at that excepentionally poorly forecasted state of Missouri -- forecasts are in blue and the actual data has been plotted in red:
+Looking at that excepentionally poorly forecasted state of Missouri -- forecasts are in blue and the actual data has been plotted in red:  
 <img src=https://user-images.githubusercontent.com/31425480/194945048-9d8dc338-8d62-4174-967c-710ef577b66f.png width="50%"><img src=https://user-images.githubusercontent.com/31425480/194944810-85e5b8e0-0368-47eb-acb5-d1d38f6ae931.png width="50%">
 
-But even with our standout state of Tennessee, we can see the predictions really didn't do well:
+But even with our standout state of Tennessee, we can see the predictions really didn't do well.   It's important to note that the scales of Naive vs. ARIMA are drastically different, which is why Naive almost looks like a better prediction at first glance:
 <img src=https://user-images.githubusercontent.com/31425480/194945488-6b7f8254-ab43-4b36-8961-61b4d4709f66.png width="50%"><img src=https://user-images.githubusercontent.com/31425480/194945719-d8ffc91e-a55d-4e66-9440-0b22ca149f4c.png width="50%">
 
-In the future, it may be easier to do influenza forecasting using only post-COVID data, but as we are only barely entering our third flu season since COVID became a thing, 
-we simply do not have enough post-COVID data to use but it's clear that influenza spread hasn't yet returned back to the spread we would have seen before COVID.
+In the future, it may be easier to do influenza forecasting using only post-COVID data, but as we are only barely entering our third flu season since COVID became a thing, we simply do not have enough post-COVID data to use for forecasting, but it's clear that influenza spread hasn't yet returned back to the spread we would have seen before COVID.
 
+The code attached created Nieve and ARIMA forecasting images for each of the forty states we had complete data available, as well as two text files of the MASE errors for each state.
 
 
 
