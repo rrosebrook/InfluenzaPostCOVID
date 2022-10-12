@@ -77,7 +77,7 @@ The code attached also creates text files summarizing linear models both by stat
 
 ## Conclusions
 
-Sometimes it feels like it's been decades since the start of COVID, however through the process of this project it's been painfully clear that there's barely two seasons of flu data at the time of this publicaion, and we are barely starting upon our third.  Because of this lack of data we were ultimately hampered on the level of analysis we could do on this topic, and it would be worth revisiting once more data has been collected. 
+Sometimes it feels like it's been decades since the start of COVID, however through the process of this project it's been painfully clear that there's barely two seasons of flu data at the time of this publicaion, and we are barely starting upon our third.  Because of this lack of data we were ultimately hampered on the level of analysis we could do on this topic, and it would be worth revisiting once more data has been collected. During the 2020 flu-season (and 2019 for Alaska) we saw incredible reductions in influenza infections, but we do see these numbers trending upward with the 2021 flu season.  But the data we have only only sufficient to let us know that currently things are drastically different from pre-pandemic levels -- we will have to wait until we start seeing numbers from this flu season before we can really start predicting if these changes will have any sort of lasting effect.
 
 
 
