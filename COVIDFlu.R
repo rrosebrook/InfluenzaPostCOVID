@@ -14,11 +14,38 @@ library(smooth)
 # Respiratory infection data from FluView Interactive
 # Obtained from the CDC 
 # https://www.cdc.gov/flu/weekly/fluviewinteractive.htm
-oldLabs <- read.csv("WHO_NREVSS_Combined_prior_to_2015_16.csv")
-clinical <- read.csv("WHO_NREVSS_Clinical_Labs.csv")
-publicLabs <- read.csv("WHO_NREVSS_Public_Health_Labs.csv")
 
-# Flu mortality data from Influenza/Pnemonia Mortality by Starte
+# The first line of each file explains the type of data contained therein, 
+# But we need to skip it to avoid breaking the csv
+
+# Importing the labs from 2010-2016
+header <- read.table("WHO_NREVSS_Combined_prior_to_2015_16.csv", 
+                     nrows = 1, skip=1, header = FALSE, sep =',', 
+                     stringsAsFactors = FALSE)
+dat    <- read.table("WHO_NREVSS_Combined_prior_to_2015_16.csv", 
+                     skip = 2, header = FALSE, sep =',')
+colnames(dat) <- unlist(header)
+oldLabs <- dat
+
+# Importing the clinical labs from 2016 and later
+header <- read.table("WHO_NREVSS_Clinical_Labs.csv", 
+                     nrows = 1, skip=1, header = FALSE, sep =',', 
+                     stringsAsFactors = FALSE)
+dat    <- read.table("WHO_NREVSS_Clinical_Labs.csv", 
+                     skip = 2, header = FALSE, sep =',')
+colnames(dat) <- unlist(header)
+clinical <- dat
+
+# Importing the public health labs from 2016 and later
+header <- read.table("WHO_NREVSS_Public_Health_Labs.csv", 
+                     nrows = 1, skip=1, header = FALSE, sep =',', 
+                     stringsAsFactors = FALSE)
+dat    <- read.table("WHO_NREVSS_Public_Health_Labs.csv", 
+                     skip = 2, header = FALSE, sep =',')
+colnames(dat) <- unlist(header)
+publicLabs <- dat
+
+# Flu mortality data from Influenza/Pnemonia Mortality by State
 # Obtained from the CDC
 # https://www.cdc.gov/nchs/pressroom/sosmap/flu_pneumonia_mortality/flu_pneumonia.htm
 mortality <- read.csv("data-table.csv")
