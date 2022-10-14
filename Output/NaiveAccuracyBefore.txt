@@ -1,0 +1,320 @@
+Alabama MASE:
+10.71115
+Arizona MASE:
+10.55575
+Arkansas MASE:
+10.47401
+California MASE:
+8.409832
+Colorado MASE:
+10.23273
+Connecticut MASE:
+10.21144
+Georgia MASE:
+10.08788
+Hawaii MASE:
+10.53296
+Idaho MASE:
+10.64767
+Illinois MASE:
+10.49586
+Indiana MASE:
+10.64823
+Iowa MASE:
+10.25985
+Kansas MASE:
+10.65332
+Kentucky MASE:
+10.36363
+Louisiana MASE:
+10.73318
+Maine MASE:
+10.65539
+Maryland MASE:
+10.6424
+Massachusetts MASE:
+10.14646
+Michigan MASE:
+10.35195
+Minnesota MASE:
+9.676515
+Mississippi MASE:
+10.74505
+Missouri MASE:
+10.06339
+Montana MASE:
+10.49454
+Nebraska MASE:
+10.32973
+New Mexico MASE:
+9.118044
+New York MASE:
+9.122565
+Ohio MASE:
+8.472366
+Oklahoma MASE:
+10.58269
+Oregon MASE:
+10.06283
+Pennsylvania MASE:
+10.16699
+Puerto Rico MASE:
+10.78102
+South Carolina MASE:
+10.41242
+South Dakota MASE:
+10.22425
+Tennessee MASE:
+10.74279
+Texas MASE:
+7.528522
+Vermont MASE:
+10.67856
+Virginia MASE:
+10.63919
+Washington MASE:
+10.36608
+West Virginia MASE:
+10.45913
+Wisconsin MASE:
+6.68413
+Alabama MASE:
+10.71115
+Arizona MASE:
+10.55575
+Arkansas MASE:
+10.47401
+California MASE:
+8.409832
+Colorado MASE:
+10.23273
+Connecticut MASE:
+10.21144
+Georgia MASE:
+10.08788
+Hawaii MASE:
+10.53296
+Idaho MASE:
+10.64767
+Illinois MASE:
+10.49586
+Indiana MASE:
+10.64823
+Iowa MASE:
+10.25985
+Kansas MASE:
+10.65332
+Kentucky MASE:
+10.36363
+Louisiana MASE:
+10.73318
+Maine MASE:
+10.65539
+Maryland MASE:
+10.6424
+Massachusetts MASE:
+10.14646
+Michigan MASE:
+10.35195
+Minnesota MASE:
+9.676515
+Mississippi MASE:
+10.74505
+Missouri MASE:
+10.06339
+Montana MASE:
+10.49454
+Nebraska MASE:
+10.32973
+New Mexico MASE:
+9.118044
+New York MASE:
+9.122565
+Ohio MASE:
+8.472366
+Oklahoma MASE:
+10.58269
+Oregon MASE:
+10.06283
+Pennsylvania MASE:
+10.16699
+Puerto Rico MASE:
+10.78102
+South Carolina MASE:
+10.41242
+South Dakota MASE:
+10.22425
+Tennessee MASE:
+10.74279
+Texas MASE:
+7.528522
+Vermont MASE:
+10.67856
+Virginia MASE:
+10.63919
+Washington MASE:
+10.36608
+West Virginia MASE:
+10.45913
+Wisconsin MASE:
+6.68413
+Alabama MASE:
+10.71115
+Arizona MASE:
+10.55575
+Arkansas MASE:
+10.47401
+California MASE:
+8.409832
+Colorado MASE:
+10.23273
+Connecticut MASE:
+10.21144
+Georgia MASE:
+10.08788
+Hawaii MASE:
+10.53296
+Idaho MASE:
+10.64767
+Illinois MASE:
+10.49586
+Indiana MASE:
+10.64823
+Iowa MASE:
+10.25985
+Kansas MASE:
+10.65332
+Kentucky MASE:
+10.36363
+Louisiana MASE:
+10.73318
+Maine MASE:
+10.65539
+Maryland MASE:
+10.6424
+Massachusetts MASE:
+10.14646
+Michigan MASE:
+10.35195
+Minnesota MASE:
+9.676515
+Mississippi MASE:
+10.74505
+Missouri MASE:
+10.06339
+Montana MASE:
+10.49454
+Nebraska MASE:
+10.32973
+New Mexico MASE:
+9.118044
+New York MASE:
+9.122565
+Ohio MASE:
+8.472366
+Oklahoma MASE:
+10.58269
+Oregon MASE:
+10.06283
+Pennsylvania MASE:
+10.16699
+Puerto Rico MASE:
+10.78102
+South Carolina MASE:
+10.41242
+South Dakota MASE:
+10.22425
+Tennessee MASE:
+10.74279
+Texas MASE:
+7.528522
+Vermont MASE:
+10.67856
+Virginia MASE:
+10.63919
+Washington MASE:
+10.36608
+West Virginia MASE:
+10.45913
+Wisconsin MASE:
+6.68413
+Alabama MASE:
+10.71115
+Arizona MASE:
+10.55575
+Arkansas MASE:
+10.47401
+California MASE:
+8.409832
+Colorado MASE:
+10.23273
+Connecticut MASE:
+10.21144
+Georgia MASE:
+10.08788
+Hawaii MASE:
+10.53296
+Idaho MASE:
+10.64767
+Illinois MASE:
+10.49586
+Indiana MASE:
+10.64823
+Iowa MASE:
+10.25985
+Kansas MASE:
+10.65332
+Kentucky MASE:
+10.36363
+Louisiana MASE:
+10.73318
+Maine MASE:
+10.65539
+Maryland MASE:
+10.6424
+Massachusetts MASE:
+10.14646
+Michigan MASE:
+10.35195
+Minnesota MASE:
+9.676515
+Mississippi MASE:
+10.74505
+Missouri MASE:
+10.06339
+Montana MASE:
+10.49454
+Nebraska MASE:
+10.32973
+New Mexico MASE:
+9.118044
+New York MASE:
+9.122565
+Ohio MASE:
+8.472366
+Oklahoma MASE:
+10.58269
+Oregon MASE:
+10.06283
+Pennsylvania MASE:
+10.16699
+Puerto Rico MASE:
+10.78102
+South Carolina MASE:
+10.41242
+South Dakota MASE:
+10.22425
+Tennessee MASE:
+10.74279
+Texas MASE:
+7.528522
+Vermont MASE:
+10.67856
+Virginia MASE:
+10.63919
+Washington MASE:
+10.36608
+West Virginia MASE:
+10.45913
+Wisconsin MASE:
+6.68413

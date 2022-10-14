@@ -1,0 +1,320 @@
+Alabama MASE:
+4.539776
+Arizona MASE:
+4.660471
+Arkansas MASE:
+1.361623
+California MASE:
+4.267999
+Colorado MASE:
+3.386745
+Connecticut MASE:
+4.17417
+Georgia MASE:
+0.8868039
+Hawaii MASE:
+2.539726
+Idaho MASE:
+3.963165
+Illinois MASE:
+3.860343
+Indiana MASE:
+3.389622
+Iowa MASE:
+1.254213
+Kansas MASE:
+1.276633
+Kentucky MASE:
+2.984199
+Louisiana MASE:
+3.265022
+Maine MASE:
+2.303007
+Maryland MASE:
+3.065597
+Massachusetts MASE:
+8.18086
+Michigan MASE:
+5.340171
+Minnesota MASE:
+2.359951
+Mississippi MASE:
+1.900881
+Missouri MASE:
+2.591759
+Montana MASE:
+2.477263
+Nebraska MASE:
+2.311216
+New Mexico MASE:
+4.755697
+New York MASE:
+3.988079
+Ohio MASE:
+4.49713
+Oklahoma MASE:
+0.8672246
+Oregon MASE:
+4.473035
+Pennsylvania MASE:
+2.100854
+Puerto Rico MASE:
+5.749801
+South Carolina MASE:
+2.230881
+South Dakota MASE:
+2.569641
+Tennessee MASE:
+2.775232
+Texas MASE:
+1.356841
+Vermont MASE:
+4.47411
+Virginia MASE:
+3.9455
+Washington MASE:
+5.751334
+West Virginia MASE:
+0.716266
+Wisconsin MASE:
+6.68413
+Alabama MASE:
+4.539776
+Arizona MASE:
+4.660471
+Arkansas MASE:
+1.361623
+California MASE:
+4.267999
+Colorado MASE:
+3.386745
+Connecticut MASE:
+4.17417
+Georgia MASE:
+0.8868039
+Hawaii MASE:
+2.539726
+Idaho MASE:
+3.963165
+Illinois MASE:
+3.860343
+Indiana MASE:
+3.389622
+Iowa MASE:
+1.254213
+Kansas MASE:
+1.276633
+Kentucky MASE:
+2.984199
+Louisiana MASE:
+3.265022
+Maine MASE:
+2.303007
+Maryland MASE:
+3.065597
+Massachusetts MASE:
+8.18086
+Michigan MASE:
+5.340171
+Minnesota MASE:
+2.359951
+Mississippi MASE:
+1.900881
+Missouri MASE:
+2.591759
+Montana MASE:
+2.477263
+Nebraska MASE:
+2.311216
+New Mexico MASE:
+4.755697
+New York MASE:
+3.988079
+Ohio MASE:
+4.49713
+Oklahoma MASE:
+0.8672246
+Oregon MASE:
+4.473035
+Pennsylvania MASE:
+2.100854
+Puerto Rico MASE:
+5.749801
+South Carolina MASE:
+2.230881
+South Dakota MASE:
+2.569641
+Tennessee MASE:
+2.775232
+Texas MASE:
+1.356841
+Vermont MASE:
+4.47411
+Virginia MASE:
+3.9455
+Washington MASE:
+5.751334
+West Virginia MASE:
+0.716266
+Wisconsin MASE:
+6.68413
+Alabama MASE:
+4.539776
+Arizona MASE:
+4.660471
+Arkansas MASE:
+1.361623
+California MASE:
+4.267999
+Colorado MASE:
+3.386745
+Connecticut MASE:
+4.17417
+Georgia MASE:
+0.8868039
+Hawaii MASE:
+2.539726
+Idaho MASE:
+3.963165
+Illinois MASE:
+3.860343
+Indiana MASE:
+3.389622
+Iowa MASE:
+1.254213
+Kansas MASE:
+1.276633
+Kentucky MASE:
+2.984199
+Louisiana MASE:
+3.265022
+Maine MASE:
+2.303007
+Maryland MASE:
+3.065597
+Massachusetts MASE:
+8.18086
+Michigan MASE:
+5.340171
+Minnesota MASE:
+2.359951
+Mississippi MASE:
+1.900881
+Missouri MASE:
+2.591759
+Montana MASE:
+2.477263
+Nebraska MASE:
+2.311216
+New Mexico MASE:
+4.755697
+New York MASE:
+3.988079
+Ohio MASE:
+4.49713
+Oklahoma MASE:
+0.8672246
+Oregon MASE:
+4.473035
+Pennsylvania MASE:
+2.100854
+Puerto Rico MASE:
+5.749801
+South Carolina MASE:
+2.230881
+South Dakota MASE:
+2.569641
+Tennessee MASE:
+2.775232
+Texas MASE:
+1.356841
+Vermont MASE:
+4.47411
+Virginia MASE:
+3.9455
+Washington MASE:
+5.751334
+West Virginia MASE:
+0.716266
+Wisconsin MASE:
+6.68413
+Alabama MASE:
+4.539776
+Arizona MASE:
+4.660471
+Arkansas MASE:
+1.361623
+California MASE:
+4.267999
+Colorado MASE:
+3.386745
+Connecticut MASE:
+4.17417
+Georgia MASE:
+0.8868039
+Hawaii MASE:
+2.539726
+Idaho MASE:
+3.963165
+Illinois MASE:
+3.860343
+Indiana MASE:
+3.389622
+Iowa MASE:
+1.254213
+Kansas MASE:
+1.276633
+Kentucky MASE:
+2.984199
+Louisiana MASE:
+3.265022
+Maine MASE:
+2.303007
+Maryland MASE:
+3.065597
+Massachusetts MASE:
+8.18086
+Michigan MASE:
+5.340171
+Minnesota MASE:
+2.359951
+Mississippi MASE:
+1.900881
+Missouri MASE:
+2.591759
+Montana MASE:
+2.477263
+Nebraska MASE:
+2.311216
+New Mexico MASE:
+4.755697
+New York MASE:
+3.988079
+Ohio MASE:
+4.49713
+Oklahoma MASE:
+0.8672246
+Oregon MASE:
+4.473035
+Pennsylvania MASE:
+2.100854
+Puerto Rico MASE:
+5.749801
+South Carolina MASE:
+2.230881
+South Dakota MASE:
+2.569641
+Tennessee MASE:
+2.775232
+Texas MASE:
+1.356841
+Vermont MASE:
+4.47411
+Virginia MASE:
+3.9455
+Washington MASE:
+5.751334
+West Virginia MASE:
+0.716266
+Wisconsin MASE:
+6.68413
