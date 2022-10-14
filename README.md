@@ -29,6 +29,10 @@ However, there did ultimately end up being a few states who reported the fewest 
 
 For type-B infections, however, it was surprising to see that the majority of states (27) had the fewest infections in 2021. When we look at the historical data for type-B infections, we can see that they're quite variable from year to year and I suspect it may have been that 2020 was prone to have been a more infectious year, and 2021 was prone to less infection. The difference between 2020 and 2021 for all of these states is less than 5%. It appears that type-B can be just as infectious as type-A (Sharma et. al, 2019)[^4], and seems to be more lethal (Craig, 2016)[^5], so perhaps we were super lucky to simply be graced with two very low years of type-B infections during this time.
 
+## Forecasting pre-COVID
+
+First we built ARIMA and linear models to see if they would be able to predict pre-COVID data, to then use those to predict the post-COVID data.  These types of models, with our data, did not produce overwhelming models, however for a few states we were able to achieve MASE rates as low as .886 (Georgia), .867 (Oklahoma), and even .716 (West Virginia).
+
 ## Forecasting post-COVID
 
 The purpose of this project was to see if forecasting models made with pre-COVID data would be successful in predicting post-COVID data, with a hunch that they would not be effective. However, it was surprising to see just how poor these models operated on post-COVID data. First, we looked at what simple rolling averages might predict for infections of each type, with two years worth of predictions: 
@@ -46,7 +50,7 @@ But even with our standout state of Tennessee, we can see the predictions didn't
 
 In the future, it may be easier to do influenza forecasting using only post-COVID data, but as we are only barely entering our third flu season since COVID became a thing, we simply do not have enough post-COVID data to use for forecasting, but it's clear that influenza spread hasn't yet returned to the spread we would have seen before COVID.
 
-The code attached creates Naive and ARIMA forecasting images for each of the states we had complete data available, as well as two text files of the MASE errors for each type, listed by state.
+The code attached creates Naive and ARIMA forecasting images for each of the states we had complete data available, as well as four text files of the MASE errors for each type of model, listed by state.
 
 ## Mortality by Influenza Type
 
@@ -56,8 +60,9 @@ The code attached also creates text files summarizing linear models both by stat
 
 ## Conclusions
 
-Sometimes it feels like it's been decades since the start of COVID, however through the process of this project it's been painfully clear that there are barely two seasons of flu data at the time of this publication, and we are barely starting upon our third. Because of this lack of data we were ultimately hampered on the level of analysis, we could do on this topic, and it would be worth revisiting once more data has been collected. During the 2020 flu season (and 2019 for Alaska) we saw incredible reductions in influenza infections, but we do see these numbers trending upward with the 2021 flu season. But the data we have is only sufficient to let us know that currently, things are drastically different from pre-pandemic levels -- we will have to wait until we start seeing numbers from this flu season before we can start predicting if these changes will have any sort of lasting effect.
+Sometimes it feels like it's been decades since the start of COVID, however through the process of this project it's been painfully clear that there are barely two seasons of flu data at the time of this publication, and we are barely starting upon our third. Because of this lack of data we were ultimately hampered on the level of analysis, we could do on this topic, and it would be worth revisiting once more data has been collected. During the 2020 flu season (and 2019 for Alaska) we saw incredible reductions in influenza infections, but we do see these numbers trending upward with the 2021 flu season. But the data we have is only sufficient to let us know that currently, things are drastically different from pre-pandemic levels -- we will have to wait until we start seeing numbers from this flu season before we can start predicting if these changes will have any sort of lasting effect.  
 
+But we also do need to recognize the limitations of our models on preCOVID data.  While we were able to produce significantly better models for these states, this was mostly in relativity.  Dr. Harvey Fineberg, former president of the Institute of Medicine, is quoted as saying: "The flu is very unpredictable when it begins and in how it takes off." And the simpler types of modeling with the data we fed our system proved to be mostly underwhelming from the start. Further research on this topic has indicated promising methods of inflenza prediction using social media mining[^6] and neural networks[^7], so perhaps these would be better avenues worth exploring.
 
 
 
@@ -70,3 +75,5 @@ https://www.jber.jb.mil/News/News-Articles/NewsDisplay/Article/993152/jber-provi
 *European Respiratory Journal* DOI: 10.1183/13993003.01325-2019
 [^5]: Craig, J. (Aug 2016). Mortality rates higher among influenza B patients than influenza A patients. *CHEST Physician* 
 https://www.mdedge.com/chestphysician/article/111792/vaccines/mortality-rates-higher-among-influenza-b-patients-influenza
+[^6]: Singh, S & H. Kaur. (Feb 2021). Influenza prediction from social media texts using machine learning. *Journal of Physics: Conference Series*. 1950. https://iopscience.iop.org/article/10.1088/1742-6596/1950/1/012018
+[^7]: Aiken, E. L., Nguyen, A. T., Viboud, C., & M. Santillana. (Jun 2021). Toward the use of neural networks for influenza prediction at multiple spatial resolutions. *Science Advances, 7*(25). DOI: 10.1126/sciadv.abb1237
