@@ -1,6 +1,6 @@
 # COVID's Influence on Influenza
 
-This project is aimed at investigating the influence of COVID -- and the precautions that have been taken to address its spread -- upon subsequent influenza seasons. We looked at both the infection rates as well as mortality rates of influenza for the past 12 years and have attempted to predict future infections by state given COVID's impact. We also augmented our data with statistics concerning influenza mortality, in an attempt to glean any novel information there as well.
+This project is aimed at investigating the influence of COVID -- and the precautions that have been taken to address its spread -- upon subsequent influenza seasons. We looked at both the infection rates of influenza for the past 12 years and have attempted to predict future infections by state given COVID's impact. We also augmented our data with statistics concerning influenza mortality, in an attempt to glean any novel information there as well.
 
 ## Data Collection and Cleaning
 ### Collection
