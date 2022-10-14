@@ -14,7 +14,7 @@ Data were combined in these four files using the common time series of *annual* 
 
 ## Exploratory Data Analysis
 
-Peeking at the five-number summary statistics for each state shows that infections tend to be all over the place and can range quite a lot between states and the years. Obviously, states with larger populations, such as California, tended to have larger values, but we can also see the minimums for all the states are quite low, often even in the single digits.  
+Peeking at the five-number summary statistics for each state shows that infections tend to be all over the place and can range quite a lot between states and the years. States with larger populations, such as California, tended to have larger values, but we can also see the minimums for all the states are quite low, often even in the single digits.  
 
 <img src=https://user-images.githubusercontent.com/31425480/194931899-2c4e4480-ca47-4db0-a49f-434567d84c5e.png width="40%">
 
