@@ -330,7 +330,54 @@ shortcovidstates <- c("Delaware",
                       "Utah")
 
 bigcovidstates <- bigstates[! bigstates %in% shortcovidstates]
+           
+# First consider forecasting data before 2019, and see if we can fit 2019.
 
+prePreCOVID <- preCOVID %>%
+  filter(Season < 2018)
+
+for (i in bigcovidstates) {
+  filteredfile <- prePreCOVID %>%
+    filter(REGION == i)
+  filteredcol <- filteredfile$All
+  filteredcol.ts <- ts(filteredcol, freq = 1, start = c(2010, 1))
+  filteredcol.arima <- auto.arima(filteredcol.ts)
+  filteredtest <- test %>%
+    filter(REGION == i)
+  filteredtestcol <- filteredtest$All
+  filteredtest.ts <- ts(filteredtestcol, freq = 1, start = c(2018, 1))
+  n_test <- length(filteredtest)
+  multi.fc <- filteredcol.arima %>%
+    forecast(h = n_test)
+  val = accuracy(multi.fc, x = filteredtest.ts)
+  place = paste(i, "MASE:", sep = " ")
+  write(place,file="ARIMAAccuracyBefore.txt",append=TRUE)
+  write(val[12],file="ARIMAAccuracyBefore.txt",append=TRUE)
+  if(val[12] < 1) {
+    print(i)
+    print(val[12])
+  }
+}
+
+for (i in bigcovidstates) {
+  filteredfile <- prePreCOVID %>%
+    filter(REGION == i)
+  filteredcol <- filteredfile$B
+  filteredcol.ts <- ts(filteredcol, freq = 1, start = c(2010, 1))
+  filteredcol.fc <- naive(filteredcol.ts, h = 4)
+  filteredtest <- test %>%
+    filter(REGION == i)
+  filteredtestcol <- filteredtest$All
+  filteredtest.ts <- ts(filteredtestcol, freq = 1, start = c(2018, 1))
+  val = accuracy(multi.fc, x = filteredtest.ts)
+  place = paste(i, "MASE:", sep = " ")
+  write(place,file="NaiveAccuracyBefore.txt",append=TRUE)
+  write(val[12],file="NaiveAccuracyBefore.txt",append=TRUE)
+  if(val[12] < 3) {
+    print(i)
+    print(val[12])
+  }
+}
 
 
 # Create graphs and an accuracy reports of MASE
